@@ -1,4 +1,4 @@
-# Unofficial Eleven Labs Text-to-Speech API for Unity
+# Unnofficial Eleven Labs Text-to-Speech API for Unity
 
 This project includes a set of scripts that make it easy to use the Eleven Labs text-to-speech API in Unity. The scripts allow you to convert text to speech and play the resulting audio clip in your Unity project.
 
@@ -39,3 +39,9 @@ private void OnAudioClipLoadError(string errorMessage)
 }
 
 ```
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+Acknowledgments
+This project is based on the Eleven Labs text-to-speech API.
+The Mp3FileLoader.cs script is based on the Mp3StreamingDecoder project by Zhiming Ding.
