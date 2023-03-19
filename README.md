@@ -2,6 +2,9 @@
 
 This project includes a set of scripts that make it easy to use the Eleven Labs text-to-speech API in Unity. The scripts allow you to convert text to speech and play the requested audio clip in your Unity project in real time (after request processes).
 
+## To Do
+I still need to grab voices so you can select from a drop down. its manual right now. I also need to decouple the api key asset from a voice tuning asset so you can have multiple characters. 
+
 ## Getting Started
 
 To get started, you will need to obtain an API key from the Eleven Labs website. Once you have your API key, create a new `ElevenLabs Settings.asset` file in your project and enter your API key in the appropriate field.
