@@ -13,13 +13,10 @@ You will also have to obtain a Voice ID
 Here is an example of how you can use the Eleven Labs text-to-speech API in your Unity project:
 
 ```csharp
-using UnityEngine;
-
-[RequireComponent(typeof(AudioSource))]
 public class ElevenLabsTextToSpeechExample : MonoBehaviour
 {
-    [SerializeField] private ElevenLabsVoiceSetting elevenLabsVoiceSetting;
-    [SerializeField] public string inputText = "Greetings";
+    private ElevenLabsVoiceSetting elevenLabsVoiceSetting;
+    private string inputText = "Greetings";
     private AudioSource audioSource;
     private IElevenLabsTextToSpeechApi ttsApi;
 
